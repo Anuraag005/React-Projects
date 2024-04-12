@@ -1,0 +1,68 @@
+.ybalance {
+    /*text-align: justify;*/
+}
+
+.inc-exp-container {
+    display: flex;
+    justify-content: center;
+}
+
+.income,
+.expense {
+    flex: 1;
+}
+
+.income {
+    margin-right: 200px;
+}
+
+.box-shadow {
+    background-color: white;
+    box-shadow: rgb(56, 56, 56);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.transaction-form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.form-control {
+    margin-bottom: 1rem;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-control input[type='text'],
+.form-control input[type='number'] {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.form-control small {
+    display: block;
+    font-size: 0.8rem;
+    color: #6c757d;
+}
+
+.header {
+    max-width: 300px;
+    text-align: left;
+}
+
+.line2 {
+    border-bottom: 1px solid #ccc;
+    margin: 0 auto 20px;
+    width: 50%;
+}
+
+.line1 {
+    border-bottom: 1px solid #ccc;
+    margin: 0 auto 20px;
+    width: 50%;
+}

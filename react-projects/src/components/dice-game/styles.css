@@ -1,0 +1,92 @@
+.menu{
+    display: flex;
+    /*max-width: 1000px;*/
+}
+
+.text{
+    text-align: right;
+    padding-left: 0px;
+    padding-top: 250px;
+}
+
+.text h1{
+    font-size: 108px;
+}
+
+.text button{
+    background-color: black;
+    border: 1px solid white;
+    padding: 10px;
+    width: 200px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.text button:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    transition: 0.2s background ease-in;
+}
+
+
+.dices{
+    padding: 100px;
+}
+
+.score {
+    max-width: 200px;
+    text-align: center;
+    padding: 25px;
+  
+    h1 {
+      font-size: 100px;
+      line-height: 100px;
+    }
+  
+    p {
+      font-size: 24px;
+      font-weight: 500;
+    }
+  }
+  
+  .box {
+    height: 72px;
+    width: 72px;
+    border: 1px solid black;
+    display: grid;
+    place-items: center;
+    font-weight: 700;
+    line-height: 36px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .box.selected{
+    background-color: black;
+    color: white;
+  }
+
+  .top-container{
+    display: flex;
+  }
+  
+  
+  .boxes {
+    display: flex;
+    gap: 30px;
+    align-items: end;
+    max-width: 600px;
+    margin-top: 0;
+  }
+
+  .maindice{
+    display: flex;
+    justify-self: center;
+    margin-top: 48px;
+    max-width: 300px;
+    padding-left: 200px;
+    cursor: pointer;
+  }
+  
